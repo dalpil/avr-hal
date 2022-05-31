@@ -43,3 +43,7 @@ pub use trinket_pro::*;
 mod trinket;
 #[cfg(feature = "trinket")]
 pub use trinket::*;
+#[cfg(feature = "mhtiny")]
+mod mhtiny;
+#[cfg(feature = "mhtiny")]
+pub use mhtiny::*;
